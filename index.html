@@ -4,10 +4,28 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="app/js/main.js"></script>
+    <title>Juan Projects</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <header class="header">
+      <p class="visually-hidden">Header</p>
+      <div class="header__wrapper wrapper">
+        <h1 class="header__heading headline">Projects</h1>
+      </div>
+    </header>
+    <body>
+      <section class="projects">
+        <div class="projects__wrapper wrapper">
+          <ul id="root" class="projects__list" role="list"></ul>
+        </div>
+      </section>
+    </body>
   </body>
 </html>
