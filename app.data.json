@@ -1,24 +1,31 @@
 {
-  "projects": [
-    {
-      "name": "block-3/project-1",
-      "path": "/projects/teach/index.html",
-      "description": "A project description"
-    },
-    {
-      "name": "block-4-project-1/synny",
-      "path": "/projects/sunny/index.html",
-      "description": "A project description"
-    },
-    {
-      "name": "block-4-project-1/nura",
-      "path": "/projects/nura/index.html",
-      "description": "A project description"
-    },
-    {
-      "name": "block6-project-1/shoppery",
-      "path": "/projects/shoppery/index.html",
-      "description": "A project description"
+  "projects": {
+    "items": [
+      {
+        "name": "block-3/project-1",
+        "path": "/projects/teach/index.html",
+        "description": "A project description"
+      },
+      {
+        "name": "block-4-project-1/synny",
+        "path": "/projects/sunny/index.html",
+        "description": "A project description"
+      },
+      {
+        "name": "block-4-project-1/nura",
+        "path": "/projects/nura/index.html",
+        "description": "A project description"
+      },
+      {
+        "name": "block6-project-1/shoppery",
+        "path": "/projects/shoppery/index.html",
+        "description": "A project description"
+      }
+    ],
+    "meta": {
+      "button": {
+        "text": "Check Design"
+      }
     }
-  ]
+  }
 }
