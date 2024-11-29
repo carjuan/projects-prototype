@@ -1,0 +1,71 @@
+@use "../utils/mixins" as m;
+
+.project-showcase {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  background: rgba(000, 000, 000, 0.7);
+  animation: bounceInDown 0.5s;
+
+  &--hidden {
+    @extend .project-showcase;
+    animation: bounceOutUp 0.5s;
+  }
+
+  &__wrapper {
+    @include m.position-center;
+    position: absolute;
+    width: min(100% - 2rem, var(--max-width));
+    height: 80%;
+    transition: width 0.4s ease-in;
+  }
+
+  &__iframe {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  &__close,
+  &__responsive {
+    position: absolute;
+    top: -3rem;
+  }
+
+  &__close {
+    left: 0;
+  }
+
+  &__responsive {
+    right: 0;
+    color: white;
+  }
+
+  &__mobile {
+    margin-right: 1rem;
+  }
+}
+
+@keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounceOutUp {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}

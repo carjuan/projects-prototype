@@ -1,0 +1,127 @@
+@use "../utils/mixins" as m;
+
+.projects {
+  margin-block: 0 2rem;
+  animation: fadeInDown 1s ease-in-out;
+
+  &__list {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__list-item {
+    flex: 0 1 26.25rem;
+    display: grid;
+    border-radius: var(--border-radius);
+    background-color: var(--clr-bg-projects-card);
+  }
+
+  &__container {
+    --clip-position: 100% 100%;
+    --clip-radius: 20%;
+    $container: &;
+    padding: 2.25rem;
+    grid-column: 1;
+    grid-row: 1;
+    transition:
+      clip-path 0.5s ease-in-out,
+      transform 0.2s ease-in;
+
+    &--default {
+      @extend #{$container};
+
+      &:hover + #{$container}--hover {
+        --clip-radius: 60%;
+      }
+    }
+
+    &--hover {
+      @extend #{$container};
+      background-color: var(--clr-bg-card-hover);
+      clip-path: circle(var(--clip-radius) at var(--clip-position));
+      pointer-events: none;
+    }
+  }
+
+  &__title {
+    margin-bottom: 1rem;
+    font: var(--ff-project-title);
+  }
+
+  &__description,
+  &__features {
+    font: var(--ff-project-card);
+  }
+
+  &__features {
+    @include m.flex-col;
+    gap: 0.375rem;
+  }
+  &__feature {
+    list-style-type: none;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: -1rem;
+      top: 0.5rem;
+      width: 0.5rem;
+      height: 0.5rem;
+      background-color: var(--clr-bg-feature-bullet);
+      border-radius: var(--border-radius);
+    }
+  }
+
+  &__tools-heading {
+    font: var(--ff-project-subheading);
+  }
+
+  &__tool {
+    background-color: var(--clr-bg-tool);
+    color: var(--clr-text-light);
+    border-radius: var(--border-radius);
+    display: inline-block;
+    padding-inline: 0.3rem;
+    padding-block: 0.5rem;
+    font: var(--ff-project-tool);
+
+    &:not(:last-child) {
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 1rem;
+  }
+
+  &__btn {
+    transition:
+      background-color 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      color 0.5s ease-in-out;
+  }
+
+  &:has(&__container:hover) &__btn {
+    background-color: var(--clr-btn-bg-card-hover);
+    border: 4px solid var(--clr-btn-bg-card-hover);
+    color: var(--clr-text-light);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
