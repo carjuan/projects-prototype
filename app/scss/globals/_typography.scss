@@ -1,0 +1,63 @@
+:root {
+  // FONT SIZE
+  --fs-100: 0.75rem;
+  --fs-200: 0.875rem;
+  --fs-300: 1rem;
+  --fs-350: 1.25rem;
+  --fs-400: 1.5rem;
+  --fs-500: 2rem;
+  --fs-600: 2.5rem;
+  --fs-700: 3rem;
+  --fs-750: 3.4rem;
+  --fs-800: 4rem;
+  --fs-900: 5rem;
+
+  // LINE HEIGHT
+  --lh-base: 1.5;
+  --lh-base-sm: 1.75;
+  --lh-base-lg: 2;
+  --lh-base-xl: 2.5;
+  --lh-base-xxl: 3;
+
+  // FONT WEIGHT
+  --fw-normal: 400;
+  --fw-bold: 700;
+  --fw-black: 900;
+
+  // FONT FAMILY
+  --ff-sans: "Inter", sans-serif;
+  --ff-serif: "Merriweather", serif;
+  --ff-monospace: "Roboto Mono", monospace;
+  --ff-display: "Oswald", sans-serif;
+  --ff-base: var(--ff-sans);
+  --ff-alt: var(--ff-serif);
+  --ff-code: var(--ff-monospace);
+  --ff-heading: var(--ff-display);
+  --ff-body: var(--ff-base);
+  --ff-cta: var(--ff-base);
+  --ff-logo: var(--ff-base);
+  --ff-caption: var(--ff-base);
+
+  /* HEADING */
+  --ff-heading-800: normal var(--fw-bold) var(--fs-800) / var(--lh-base)
+    var(--ff-display);
+  /* FOOTER */
+  --ff-footer-800: normal var(--fw-bold) var(--fs-400) / var(--lh-base)
+    var(--ff-display);
+
+  /* CARD */
+  --ff-project-card: normal var(--fw-normal) var(--fs-300) / var(--lh-base)
+    var(--ff-base);
+  --ff-project-title: normal var(--fw-black) var(--fs-350) / 1.2 var(--ff-base);
+  --ff-project-subheading: normal var(--fw-bold) var(--fs-350) / 1
+    var(--ff-base);
+  --ff-project-tool: normal var(--fw-bold) var(--fs-200) / 1 var(--ff-base);
+
+  /* BUTTON */
+  --ff-button: normal var(--fw-bold) var(--fs-325) / var(--lh-base)
+    var(--ff-sans);
+}
+
+h1 {
+  font: var(--ff-heading-800);
+}

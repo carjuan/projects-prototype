@@ -1,0 +1,35 @@
+:root {
+  --dark: #001e1d;
+  --orange: #ffa94b;
+  --orange-light: #f9bc60;
+  --pink: #e16162;
+  --green: #004643;
+  --green-light: #abd1c6;
+  --white: #fffffe;
+
+  /* BACKGROUND */
+  --clr-bg-main: var(--green);
+  --clr-bg-header: var(--green-light);
+  --clr-bg-footer: var(--green-light);
+  --clr-bg-projects-card: var(--white);
+  --clr-bg-tool: var(--green);
+  --clr-bg-feature-bullet: var(--pink);
+
+  /* TEXT */
+  --clr-text-dark: #021526;
+  --clr-text-light: var(--white);
+  --clr-text-highlight: var(--white);
+
+  /* BUTTON */
+  --clr-btn-bg-primary: var(--orange-light);
+  --clr-btn-bg-card-hover: var(--green);
+  --clr-btn-bg-close: var(--orange);
+
+  /* GLOW */
+  --clr-bg-card-hover: var(--green-light);
+}
+
+body {
+  background-color: var(--clr-bg-main);
+  color: var(--clr-text-dark);
+}
