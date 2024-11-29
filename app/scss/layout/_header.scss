@@ -1,0 +1,22 @@
+.header {
+  margin-block: 0 2rem;
+  padding-block: 1rem;
+  background-color: var(--clr-bg-header);
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__logo {
+    color: var(--clr-text-dark);
+    text-transform: uppercase;
+  }
+
+  &__icons {
+    display: flex;
+    gap: 1rem;
+  }
+}

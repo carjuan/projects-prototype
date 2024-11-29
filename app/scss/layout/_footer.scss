@@ -1,0 +1,21 @@
+.footer {
+  background: var(--clr-bg-footer);
+  padding-block: 1rem;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  & p {
+    font: var(--ff-footer-800);
+  }
+
+  &__love {
+    display: flex;
+    align-items: center;
+    text-wrap: nowrap;
+  }
+}

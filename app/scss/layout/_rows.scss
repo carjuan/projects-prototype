@@ -1,0 +1,5 @@
+@use "../utils/mixins" as m;
+.rows {
+  @include m.flex-col;
+  height: 100%;
+}
