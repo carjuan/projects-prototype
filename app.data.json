@@ -2,24 +2,90 @@
   "projects": {
     "items": [
       {
-        "name": "block-3/project-1",
-        "path": "/projects/teach/index.html",
-        "description": "A project description"
+        "name": "Billing Dashboard",
+        "path": "https://teach-carjuan.netlify.app/",
+        "description": "A clean and modern billing dashboard interface, designed to showcase user billing history, payment methods, and subscription details. The page highlights responsiveness and usability across devices.",
+        "features": [
+          "Displays billing history with dates and downloadable receipts.",
+          "Subscription management with renewal and cancellation options.",
+          "Promotes additional lessons through interactive cards.",
+          "Responsive design for accessibility across devices."
+        ],
+        "tools": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Responsive design techniques",
+          "WAG Complaint"
+        ],
+        "responsive": {
+          "min": 462,
+          "max": 1280
+        }
       },
       {
-        "name": "block-4-project-1/synny",
-        "path": "/projects/sunny/index.html",
-        "description": "A project description"
+        "name": "Sunnyside Agency",
+        "path": "https://sunny-carjuan.netlify.app/",
+        "description": "A visually stunning and modern landing page for a creative agency. The page emphasizes bold colors, crisp typography, and dynamic layouts to highlight services such as branding, graphic design, and photography. ",
+        "features": [
+          "Displays billing history with dates and downloadable receipts.",
+          "Subscription management with renewal and cancellation options.",
+          "Promotes additional lessons through interactive cards.",
+          "Responsive design for accessibility across devices."
+        ],
+        "tools": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Responsive design techniques",
+          "WAG Complaint"
+        ],
+        "responsive": {
+          "min": 420,
+          "max": 1380
+        }
       },
       {
-        "name": "block-4-project-1/nura",
-        "path": "/projects/nura/index.html",
-        "description": "A project description"
+        "name": "Black Friday Campaign",
+        "path": "https://nura-carjuan.netlify.app/",
+        "description": "A sleek and modern promotional webpage designed for Nura to highlight their Black Friday sales. The design seamlessly integrates product showcases, discount banners, and subscription incentives. ",
+        "features": [
+          "Displays billing history with dates and downloadable receipts.",
+          "Subscription management with renewal and cancellation options.",
+          "Promotes additional lessons through interactive cards.",
+          "Responsive design for accessibility across devices."
+        ],
+        "tools": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Responsive design techniques",
+          "WAG Complaint"
+        ],
+        "responsive": {
+          "min": 420,
+          "max": 1280
+        }
       },
       {
-        "name": "block6-project-1/shoppery",
-        "path": "/projects/shoppery/index.html",
-        "description": "A project description"
+        "name": "Organic Food E-Commerce",
+        "path": "https://shoppery-carjuan.netlify.app/",
+        "description": "A modern and visually appealing homepage design tailored for an organic food e-commerce platform. The design focuses on showcasing products, building trust, and driving conversions through a user-friendly interface.",
+        "features": [
+          "Eye-catching hero banner with a prominent call-to-action (CTA) promoting sales.",
+          "Featured product carousel with clear pricing ratings, and discounts.",
+          "'Shop by Top Categories' section for intuitive navigation across key product categories.",
+          "Trust-building section highlighting the brand's commitment to organic and sustainable practices."
+        ],
+        "tools": [
+          "HTML5, CSS3, JavaScript",
+          "Flexbox/Grid for layout",
+          "Responsive design techniques"
+        ],
+        "responsive": {
+          "min": 380,
+          "max": 1360
+        }
       }
     ],
     "meta": {
