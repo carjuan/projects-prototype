@@ -2,30 +2,97 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Titan+One&display=swap"
       rel="stylesheet"
     />
-    <script type="module" src="app/js/main.js"></script>
+    <script type="module" src="app/js/index.js"></script>
     <title>Juan Projects</title>
   </head>
   <body>
-    <header class="header">
-      <p class="visually-hidden">Header</p>
-      <div class="header__wrapper wrapper">
-        <h1 class="header__heading headline">Projects</h1>
-      </div>
-    </header>
-    <body>
-      <section class="projects">
-        <div class="projects__wrapper wrapper">
-          <ul id="root" class="projects__list" role="list"></ul>
+    <div class="rows">
+      <header class="header">
+        <p class="visually-hidden">Header</p>
+        <div class="header__wrapper wrapper">
+          <h1 class="header__heading">
+            <a class="header__logo" href="/">my work</a>
+          </h1>
+
+          <div class="header__icons">
+            <a href="https://github.com/carjuan" target="_blank">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="48"
+                height="48"
+                fill="#000000"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M216,104v8a56.06,56.06,0,0,1-48.44,55.47A39.8,39.8,0,0,1,176,192v40a8,8,0,0,1-8,8H104a8,8,0,0,1-8-8V216H72a40,40,0,0,1-40-40A24,24,0,0,0,8,152a8,8,0,0,1,0-16,40,40,0,0,1,40,40,24,24,0,0,0,24,24H96v-8a39.8,39.8,0,0,1,8.44-24.53A56.06,56.06,0,0,1,56,112v-8a58.14,58.14,0,0,1,7.69-28.32A59.78,59.78,0,0,1,69.07,28,8,8,0,0,1,76,24a59.75,59.75,0,0,1,48,24h24a59.75,59.75,0,0,1,48-24,8,8,0,0,1,6.93,4,59.74,59.74,0,0,1,5.37,47.68A58,58,0,0,1,216,104Z"
+                ></path>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/juanse-carvajal/"
+              target="_blank"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="48"
+                height="48"
+                fill="#000000"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24ZM96,176a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0ZM88,96a12,12,0,1,1,12-12A12,12,0,0,1,88,96Zm96,80a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140Z"
+                ></path>
+              </svg>
+            </a>
+          </div>
         </div>
-      </section>
-    </body>
+      </header>
+      <main class="content">
+        <section class="projects">
+          <div class="projects__wrapper wrapper">
+            <ul
+              id="root"
+              data-has-slider="false"
+              class="projects__list"
+              role="list"
+            ></ul>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <h2 class="visually-hidden">Footer</h2>
+        <div class="footer__wrapper wrapper">
+          <p class="footer__rights">
+            &copy; 2024 Juan Carvajal. All rights reserved.
+          </p>
+          <p class="footer__love">
+            Made with
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              fill="#e16162"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M240,102c0,70-103.79,126.66-108.21,129a8,8,0,0,1-7.58,0C119.79,228.66,16,172,16,102A62.07,62.07,0,0,1,78,40c20.65,0,38.73,8.88,50,23.89C139.27,48.88,157.35,40,178,40A62.07,62.07,0,0,1,240,102Z"
+              ></path>
+            </svg>
+            by Juanse
+          </p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
