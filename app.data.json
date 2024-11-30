@@ -6,10 +6,10 @@
         "path": "https://teach-carjuan.netlify.app/",
         "description": "A clean and modern billing dashboard interface, designed to showcase user billing history, payment methods, and subscription details. The page highlights responsiveness and usability across devices.",
         "features": [
-          "Displays billing history with dates and downloadable receipts.",
-          "Subscription management with renewal and cancellation options.",
-          "Promotes additional lessons through interactive cards.",
-          "Responsive design for accessibility across devices."
+          "Displays billing history with dates and downloadable receipts",
+          "Subscription management with renewal and cancellation options",
+          "Promotes additional lessons through interactive cards",
+          "Responsive design for accessibility across devices"
         ],
         "tools": [
           "HTML5",
@@ -28,17 +28,17 @@
         "path": "https://sunny-carjuan.netlify.app/",
         "description": "A visually stunning and modern landing page for a creative agency. The page emphasizes bold colors, crisp typography, and dynamic layouts to highlight services such as branding, graphic design, and photography. ",
         "features": [
-          "Displays billing history with dates and downloadable receipts.",
-          "Subscription management with renewal and cancellation options.",
-          "Promotes additional lessons through interactive cards.",
-          "Responsive design for accessibility across devices."
+          "Eye-catching hero section with a vibrant call to action",
+          "Service-specific sections with creative visuals",
+          "Client testimonials for social proof",
+          "Responsive design optimized for all screen sizes"
         ],
         "tools": [
           "HTML5",
           "CSS3",
           "JavaScript",
           "Responsive design techniques",
-          "WAG Complaint"
+          "WCAG 2.0"
         ],
         "responsive": {
           "min": 420,
@@ -50,10 +50,10 @@
         "path": "https://nura-carjuan.netlify.app/",
         "description": "A sleek and modern promotional webpage designed for Nura to highlight their Black Friday sales. The design seamlessly integrates product showcases, discount banners, and subscription incentives. ",
         "features": [
-          "Displays billing history with dates and downloadable receipts.",
-          "Subscription management with renewal and cancellation options.",
-          "Promotes additional lessons through interactive cards.",
-          "Responsive design for accessibility across devices."
+          "Bold and engaging hero banner with a clear call-to-action (CTA) for sales",
+          "Featured discounts section with interactive product cards",
+          "Immersive visuals that convey personalization (e.g., 'For your ears only' concept)",
+          "Device-centric user experience, showcasing the versatility of Nura's app "
         ],
         "tools": [
           "HTML5",
