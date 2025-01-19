@@ -73,9 +73,11 @@
       <footer class="footer">
         <h2 class="visually-hidden">Footer</h2>
         <div class="footer__wrapper wrapper">
-          <p class="footer__rights">
-            &copy; 2024 Juan Carvajal. All rights reserved.
-          </p>
+          <p class="footer__rights js-footer-rights"></p>
+          <script type="text/javascript">
+            const $footerRights = document.querySelector(".js-footer-rights");
+            $footerRights.textContent = `© ${new Date().getFullYear()} Juan Carvajal. All Rights Reserved`;
+          </script>
           <p class="footer__love">
             Made with
             <svg
